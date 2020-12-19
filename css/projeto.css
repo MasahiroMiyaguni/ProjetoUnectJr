@@ -1,0 +1,127 @@
+.frases{
+    position:absolute;
+    height: 144px;
+    width: 308px;
+    left: 100px;
+    top: 170px;
+    font-family: "Ubuntu Mono";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 10px;
+    color: #111111;
+}
+
+#processoseletivo{
+    position: absolute;
+    width: 192px;
+    height: 16px;
+    left: 145px;
+    top: 5.5%;
+    font-family: "Ubuntu Mono";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.logounect{
+    position: absolute;
+    left: 7.32%;
+    right: 90.38%;
+    top: 5.5%;
+    bottom: 96.39%;
+}
+
+.facebook{
+    Width:9,72px;
+    Height:20px;
+    position: absolute;
+    left: 92.5%;
+    top: 36%;
+}
+.instagram{
+    Width:9,72px;
+    Height:20px;
+    position: absolute;
+    left: 92.2%;
+    top: 42%;
+}
+
+.linkedin{
+    Width:9,72px;
+    Height:20px;
+    position: absolute;
+    left: 92.2%;
+    top: 48%;
+}
+
+.backgroundtopside{
+    position: top;
+    width: 1366px;
+    height: 554px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.15;
+
+}
+
+.inscricao{
+    font-family: "Ubuntu";
+    position: absolute;
+    height: 23px;
+    left: 100px;
+    top: 327px;
+    font-size: 22px;
+    line-height: 23px;
+    color: rgba(17, 17, 17, 0.5);
+}
+
+.corazul{
+    color:#226ED8;
+}
+
+.botaoinscricao{
+    position:absolute;
+    left: 98px;
+    top: 61.7%;
+}
+
+.test{
+    position:absolute;
+    font-family:"Ubuntu";
+    font-size: 18px;
+    left:119px;
+    top:60.5%;
+    color:white;
+}
+
+.edital{
+    position:absolute;
+    font-family: 'Ubuntu';
+    font-size:18px;
+    left:255px;
+    top:60.5%;
+}
+
+.about{
+    position: absolute;
+    font-family: "Ubuntu";
+    font-size: 30px;
+    left:98px;
+    bottom:-60px;
+}
+
+.imagemabout{
+    position: absolute;
+    left:98px;
+    bottom:-350px;
+}
+
+.textoabout{
+    width: 340px;
+    margin: 210px 50px 0px 480px ;
+    font-family:"Ubuntu";
+    line-height: 25px;
+}
