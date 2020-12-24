@@ -309,7 +309,7 @@
 .linha{
     position: absolute;
     height: 1px;
-    width: 1920px;
+    width: 1366px;
     top: 1700px;
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
@@ -322,4 +322,124 @@
     font-size: 28px;
     left:100px;
     top: 1780px;
+}
+
+.logosamsung{
+    position: absolute;
+    left:98px;
+    top: 1900px;
+}
+
+.logogoogle{
+    position: absolute;
+    left:345px;
+    top: 1900px;
+}
+
+.logomicrosoft{
+    position: absolute;
+    left:590px;
+    top: 1900px;
+}
+
+.logointel{
+    position: absolute;
+    left:850px;
+    top: 1895px;
+}
+
+.logoambev{
+    position: absolute;
+    left:1050px;
+    top: 1900px;
+}
+
+#retangulo {
+    position: absolute;
+    width: 1366px; 
+    height: 428px;
+    background:#171717;
+    top: 2030px;
+ }
+
+ .facebooklogo{
+    position: absolute;
+    left:98px;
+    top: 2150px;
+ }
+
+ .instagramlogo{
+    position: absolute;
+    left:130px;
+    top: 2150px;
+}
+
+ .linkedinlogo{
+    position: absolute;
+    left:170px;
+    top: 2150px;
+}
+
+.siteunect{
+    position: absolute;
+    left: 230px;
+    top: 2138px;
+    font-family: "Ubuntu";
+    font-size: 15px;
+    color:white;
+    opacity: 0.7;
+}
+
+.grupo25{
+    position: absolute;
+    left: 650px;
+    top: 2150px;
+}
+
+.emailrh{
+    position: absolute;
+    left:1045px;
+    top: 2150px;
+    color:white;
+    opacity: 0.7;
+}
+
+.direitos{
+    position: absolute;
+    left: 1237px;
+    top: 2136px;
+    color:gray;
+    opacity: 0.7;
+}
+
+
+a:link{ 
+    color:white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+  
+a:active {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
 }
