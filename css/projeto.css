@@ -125,3 +125,201 @@
     font-family:"Ubuntu";
     line-height: 25px;
 }
+
+.vagas{
+    position: absolute;
+    font-family:"Ubuntu";
+    font-size: 30px;
+    left:98px;
+    bottom:-500px;
+}
+
+.imgdesign{
+    position:absolute;
+    left: 98px;
+    bottom: -540px;
+    
+}
+
+.vagasformatacao{
+    position:absolute;
+    color:#226ED8;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.designtexto{
+    position: absolute;
+    left: 140px;
+    bottom:-535px;
+}
+/* 79px*/
+.projetotexto{
+    position: absolute;
+    left: 219px;
+    bottom: -566px;
+    font-family: "Ubuntu";
+    font-weight: lighter;
+    font-size: 22px;
+    color: #9998a3;
+}
+/*distancia imagem para texto de 42px*/
+.imgdev{
+    position:absolute;
+    left: 480px;
+    bottom: -540px;
+}
+
+.devtexto{
+    position: absolute;
+    left: 522px;
+    bottom:-535px;
+}
+
+.projetotexto2{
+    position: absolute;
+    left: 675px;
+    bottom: -566px;
+    font-family: "Ubuntu";
+    font-weight: lighter;
+    font-size: 22px;
+    color: #9998a3;
+}
+
+.imgmarketing{
+    position: absolute;
+    left: 936px;
+    bottom: -540px;
+}
+
+.marketingtexto{
+    position: absolute;
+    left: 978px;
+    bottom:-534px;
+}
+
+.imgadm{
+    position:absolute;
+    left: 98px;
+    top: 1405px;
+}
+
+.admtexto{
+    position: absolute;
+    left: 140px;
+    top:1390px;
+}
+
+.imgrh{
+    position:absolute;
+    left: 480px;
+    top: 1405px;
+}
+
+.rhtexto{
+    position: absolute;
+    width: 184px;
+    height: 25px;   
+    left: 526px;
+    top: 1390px;
+}
+
+.imgcomercial{
+    position: absolute;
+    left: 936px;
+    top:1405px;
+}
+
+.comercialtexto{
+    position: absolute;
+    width: 184px;
+    height: 25px;   
+    left: 978px;
+    top: 1390px;
+}
+
+.boxdesign{
+    position: absolute;
+    Width: 320px;
+    Height: 145px;
+    top: 1190px;
+    Left: 100px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    line-height: 24px;  
+}
+
+.boxdev{
+    position: absolute;
+    Width: 320px;
+    Height: 145px;
+    left: 480px;
+    top: 1190px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    line-height: 24px;  
+}
+
+.boxmarketing{
+    position: absolute;
+    width: 320px;
+    height: 145px;
+    left: 936px;
+    top: 1190px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.boxadm{
+    position: absolute;
+    width: 320px;
+    height: 145px;
+    left: 100px;
+    top: 1430px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    line-height: 24px;
+}
+      
+.boxrh{
+    position: absolute;
+    Width: 320px;
+    Height: 145px;
+    left: 480px;
+    top: 1430px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+.boxcomercial{
+    position: absolute;
+    Width: 320px;
+    Height: 145px;
+    left: 978px;
+    top: 1430px;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+.linha{
+    position: absolute;
+    height: 1px;
+    width: 1920px;
+    top: 1700px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+}
+
+.alumni{
+    position: absolute;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 28px;
+    left:100px;
+    top: 1780px;
+}
