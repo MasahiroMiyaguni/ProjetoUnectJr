@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    
 </head>
 
 <body> 
-    <img class="backgroundtopside" src="/img/hero-image.png" alt="Imagem de fundo com membros da UnectJr">
+    <img class="backgroundtopside" src="img/hero-image.png" alt="Imagem de fundo com membros da UnectJr">
     <div>
         <div>
-        <img class="logounect" src="/img/simbolo azul.png" alt="Logo UnectJr">
+        <img class="logounect" src="img/simbolo azul.png" alt="Logo UnectJr">
         <p style="color:rgb(77, 77, 77)" id="processoseletivo"> &lt;Processo Seletivo 2021&gt;</p>
             <div class="frases">
                 <p>Voa <b>Unect</b></p>
@@ -23,15 +24,30 @@
                 <p>ken<b>?</b></p> 
             </div>    
 
-        <a href="//www.facebook.com/UnectJr" target="_blank"><img class="facebook" src="/img/facebook.png" alt="Link pagina Facebook"></a>
-        <a href="//www.instagram.com/unectjr/" target="_blank"><img class="instagram" src="/img/instagram.png" alt="Link pagina Instagram"></a>
-        <a href="//www.linkedin.com/company/unect-jr." target="_blank"><img class="linkedin" src="/img/linkedin.png" alt="Link Pagina Linkedin"></a>
+        <a href="//www.facebook.com/UnectJr" target="_blank"><img class="facebook" src="img/facebook.png" alt="Link pagina Facebook"></a>
+        <a href="//www.instagram.com/unectjr/" target="_blank"><img class="instagram" src="img/instagram.png" alt="Link pagina Instagram"></a>
+        <a href="//www.linkedin.com/company/unect-jr." target="_blank"><img class="linkedin" src="img/linkedin.png" alt="Link Pagina Linkedin"></a>
         <p class="inscricao">Inscrições abertas até o dia <span class="corazul">6/11</span>!</p>
-        <img class="botaoinscricao" src="/img/Rectangle 2.png" alt="botão para inscriçao">
-        <p class="test"> Inscreva-se</p>
+        <img class="botaoinscricao" src="img/Rectangle 2.png" alt="botão para inscriçao">
+        <a href="https://www.facebook.com/brunoanken" target="_blank"><p class="test"> Inscreva-se</p></a>
         <a href="//drive.google.com/file/d/1gClVjZf7C-vpK0kHLXbl56KsMvmjsKQe/view" target="_blank"><p class="edital"><span class="corazul">Edital &gt;</span></p></a>
+        <!--Edital de 2020 --> 
         <p class="about"><b>Sobre nós</b></p>
-        <img class="imagemabout" src="/img//sobre-bg.png" alt="">
+        
+        <div>
+            <img class="imagemabout" src="img/sobre-bg.png" alt="" id="trocarimg">
+            <img class="seta-esquerda" src="img/esquerda.png" alt="" onclick="img1();"> 
+            <img class="seta-direita" src="img/direita.png" alt="" onclick="img2()">
+            <script type="text/javascript">
+                function img1() {
+                    document.getElementById("trocarimg").src="img/sobre-bg.png";
+                }
+                function img2(){
+                    document.getElementById("trocarimg").src="img/giphy.gif";
+                }
+            </script>
+        </div>
+
             <div class="textoabout">
              <p>A Unect Jr. é uma Empresa Júnior vinculada aos cursos de Computação da UTFPR-CP 
                 que desenvolve sites, aplicações mobile e web, e que busca, através da vivência empresarial, 
@@ -42,7 +58,7 @@
 
         <p class="vagas"><b>Vagas</b></p>
         <div>
-            <img class="imgdesign" src="/img/design.png" alt="">
+            <img class="imgdesign" src="img/design.png" alt="">
             <p class="designtexto"><span class="vagasformatacao">Design</span></p>
             <p class="projetotexto">Projetos</p>
             <p class="boxdesign"> GTR R35 Motor Dianteiro 3.8 biturbo 6 cilindros em V potencia de 572 cv a 6800rpm,
@@ -50,7 +66,7 @@
         </div>
 
         <div>
-            <img class="imgdev"src="/img/code.png" alt="">
+            <img class="imgdev"src="img/code.png" alt="">
             <p class="devtexto"><span class="vagasformatacao">Desenvolvedor</span></p>
             <p class="projetotexto2">Projetos</span></p>
             <p class="boxdev"> Lamborghini Sian Motor Central 6.5 V12 12 cilindros em V potencia de 785cv a 8500rpm,
@@ -58,14 +74,14 @@
         </div>
 
         <div>
-            <img class="imgmarketing" src="/img/megaphone.png" alt="">
+            <img class="imgmarketing" src="img/megaphone.png" alt="">
             <p class="marketingtexto"><span class="vagasformatacao">Marketing</span> </p>
             <p class="boxmarketing"> Pois bem, cheguei quero ficar bem à vontade na verdade, eu sou assim
                 descobridor dos sete mares navegar eu quero </p>
         </div>
 
         <div>
-            <img class="imgadm" src="/img/id.png" alt="">
+            <img class="imgadm" src="img/id.png" alt="">
             <p class="admtexto"><span class="vagasformatacao">Administrativo/Financeiro</span></p>
             <p class="boxadm"> I feel I can fly I'm on six, seven, eight, cloud nine
                 and ain't nothin gonna stop me cause I'm just too mighty and high can't nobody
@@ -73,7 +89,7 @@
         </div>
 
         <div>
-            <img class="imgrh"src="/img/people.png" alt="">
+            <img class="imgrh"src="img/people.png" alt="">
             <p class="rhtexto"><span class="vagasformatacao">Recusos Humanos</span></p>
             <p class="boxrh">at the prom we are media on prom the smallers get high press the ballon
                  light up, hold and let go in one hand, the big cup with whiskey and red bull on the
@@ -81,7 +97,7 @@
         </div>
 
         <div>
-            <img class="imgcomercial"src="/img/Vector.png" alt="">
+            <img class="imgcomercial"src="img/Vector.png" alt="">
             <p class="comercialtexto"><span class="vagasformatacao">Comercial</span></p>
             <p class="boxcomercial">i am flying high i follow on my fight and working folded every 
                 show the ladies are wanting me they know that Poze is the guy from the moment i smoke
@@ -92,22 +108,53 @@
         <div>
             <p class="linha"></p>
             <p class="alumni">Onde estão nossos alumni?</p>
-            <img class="logosamsung"src="/img/samsung-logo.png" alt="logosamsung">
-            <img class="logogoogle" src="/img/google-logo.png" alt="logogoogle">
-            <img class="logomicrosoft" src="/img/microsoft-logo.png" alt="logomicrosoft">
-            <img class="logointel" src="/img/intel-logo.png" alt="logointel">
-            <img class="logoambev" src="/img/ambev-logo.png" alt="logoambev">
+            <img class="logosamsung"src="img/samsung-logo.png" alt="logosamsung">
+            <img class="logogoogle" src="img/google-logo.png" alt="logogoogle">
+            <img class="logomicrosoft" src="img/microsoft-logo.png" alt="logomicrosoft">
+            <img class="logointel" src="img/intel-logo.png" alt="logointel">
+            <img class="logoambev" src="img/ambev-logo.png" alt="logoambev">
         </div>
 
-        <p id="retangulo"></p>
-        <a href="https://www.facebook.com/UnectJr" target="_blank"><img class="facebooklogo" src="/img/facebook-white.png" alt="Facebook Logo"></a> 
-        <a href="https://www.instagram.com/unectjr/" target="_blank"><img class="instagramlogo" src="/img/instagram-white.png" alt="Instagram Logo"></a>
-        <a href="https://www.linkedin.com/company/unect-jr." target="_blank"><img class="linkedinlogo" src="/img/linkedin-white.png" alt="Linkedin Logo"></a>
-        <p class="siteunect"><a href="https://www.unect.com.br/" target="_blank">www.unect.com.br</a></p>
-        <img class="grupo25"src="/img/Group 25.png" alt="">
-        <a class="emailrh"href="mailto:rh.unect@gmail.com?Subject=Primeiro%20contato">rh.unect@gmail.com</a> 
-        <p class="line"></p>
-        <p class="direitos">©2020 Unect Jr.</p>
+        <div>
+            <p id="retangulo"></p>
+            <a href="https://www.facebook.com/UnectJr" target="_blank"><img class="facebooklogo" src="img/facebook-white.png" alt="Facebook Logo"></a> 
+            <a href="https://www.instagram.com/unectjr/" target="_blank"><img class="instagramlogo" src="img/instagram-white.png" alt="Instagram Logo"></a>
+            <a href="https://www.linkedin.com/company/unect-jr." target="_blank"><img class="linkedinlogo" src="img/linkedin-white.png" alt="Linkedin Logo"></a>
+            <p class="siteunect"><a href="https://www.unect.com.br/" target="_blank">www.unect.com.br</a></p>
+            <img class="grupo25"src="img/Group 25.png" alt="">
+            <a class="emailrh"href="mailto:rh.unect@gmail.com?Subject=Primeiro%20contato">rh.unect@gmail.com</a> 
+            <p class="line"></p>
+            <p class="direitos">©2020 Unect Jr.</p>
+        </div>
+
+        <script type="text/javascript">
+            function abrirmodal(){
+                document.getElementById('modal').style.top ="0";
+            }
+            function fecharmodal(){
+                document.getElementById('modal').style.top ="-100%"
+            }
+        </script>
+        <button class="posicaobotao" class="open-modal" onclick="abrirmodal()"><img src="img/btn-float.png" alt=""></button>
+        
+        <div class="bg-modal" id="modal">  
+            <p class="pergunte"><span class="vagasformatacao">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pergunte pra gente &#128522;</span> </p>
+                <div class="formulario">
+                <form action="rh.unect@gmail.com">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" name="nome"><br>
+                    <label for="email">E-mail</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="texto">Mensagem</label><br>
+                    <input type="text" id="mensagem" name="mensagem">
+                </form>
+            </div>
+            <div class="modal">
+                <span class="close" onclick="fecharmodal()">Cancelar</span>
+                <span class="enviar" onclick="enviar">Enviar</span>
+            </div>
+            
+        </div>
     </div>
 </body>
 </html>

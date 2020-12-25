@@ -113,6 +113,20 @@
     bottom:-60px;
 }
 
+.seta-esquerda {
+    position: absolute;
+    z-index: 2;
+    left: 98px;
+    bottom: -235px;
+}
+
+.seta-direita {
+    position: absolute;
+    z-index: 2;
+    left: 425px;
+    bottom: -235px;
+}
+
 .imagemabout{
     position: absolute;
     left:98px;
@@ -124,6 +138,7 @@
     margin: 210px 50px 0px 480px ;
     font-family:"Ubuntu";
     line-height: 25px;
+    background-color: rgba(122, 121, 121, 0.095);
 }
 
 .vagas{
@@ -299,7 +314,7 @@
     position: absolute;
     Width: 320px;
     Height: 145px;
-    left: 978px;
+    left: 936px;
     top: 1430px;
     font-family: "Ubuntu";
     font-size: 16px;
@@ -356,6 +371,7 @@
 
 #retangulo {
     position: absolute;
+    left: 0px;
     width: 1366px; 
     height: 428px;
     background:#171717;
@@ -442,4 +458,114 @@ a:hover {
   
 a:active {
     text-decoration: underline;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 27, 27, 0.733);
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display: block;
+    transition: 350ms;
+}
+.modal{
+    width: 350px;
+    height: 450px;
+    top: 45px;
+    left: 600px;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0px auto 0 auto;
+}
+
+.modal span{
+    float:right;
+    font-size: 16px;
+    color: black;
+    margin: 20px 20px;
+    transition: 350ms ;
+    cursor: pointer;
+}
+
+.close{
+    position: absolute;
+    top: 530px;
+    right: 550px;
+    font-family: "Ubuntu";
+}
+
+.enviar{
+    position: absolute;
+    top: 530px;
+    right: 490px;
+    font-family: "Ubuntu";
+}
+
+.modal span:hover {
+    color: red;
+    transition: 350ms;
+}
+
+.posicaobotao{
+    position:fixed;
+    right: 23px;
+    bottom: 23px;
+    z-index: 2;
+    border:none;
+    background-color: transparent;
+}
+
+.pergunte{
+    position: relative;
+    width: 350px;
+    height: 110px;
+    line-height: 110px;
+    z-index: 2;
+    left: 498px;
+    top: 127px;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+
+.formulario{
+    position: absolute;
+    left: 525px;
+    top: 280px;
+    z-index: 2;
+    line-height: 25px;
+}
+
+#nome{
+    position:static;
+    width: 250px;
+    height: 10px;
+    left: 280px;
+    top: 442px;
+    z-index: 2;
+}
+
+#email{
+    position:static;
+    width: 250px;
+    height: 10px;
+    left: 280px;
+    top: 442px;
+    z-index: 2;
+}
+
+#mensagem{
+    position:static;
+    width: 250px;
+    height: 100px;
+    left: 280px;
+    top: 442px;
+    z-index: 2;
 }
